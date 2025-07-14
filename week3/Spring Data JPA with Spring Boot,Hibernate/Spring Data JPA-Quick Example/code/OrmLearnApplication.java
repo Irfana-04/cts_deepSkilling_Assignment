@@ -27,7 +27,7 @@ public class OrmLearnApplication {
     	 LOGGER.info("Start");
     	    List<Country> countries = countryService.getAllCountries();
 
-    	    // ✅ Show output in console clearly
+    	 
     	    for (Country country : countries) {
     	        System.out.println(country);  // <-- Visible directly in console
     	    }
