@@ -29,7 +29,7 @@ public class OrmLearnApplication {
 
     	 
     	    for (Country country : countries) {
-    	        System.out.println(country);  // <-- Visible directly in console
+    	        System.out.println(country);  
     	    }
 
     	    LOGGER.debug("countries={}", countries);
